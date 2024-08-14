@@ -34,7 +34,7 @@ if profit_loss_table:
     df = pd.DataFrame(table_data)
  
     # Display the DataFrame
-    print(df)
+    #print(df)
  
     # Save the DataFrame to a CSV file
     df.to_csv("reliable_profit_loss.csv", index=False)
