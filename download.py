@@ -61,7 +61,7 @@ df.fillna(0, inplace=True)
 db_name = "concourse"
 db_user = "concourse_user"
 db_password = "concourse_pass"
-db_host = "concourse-db"
+db_host = "192.168.3.185"
 db_port = "5432"
  
 # Connect to PostgreSQL database
