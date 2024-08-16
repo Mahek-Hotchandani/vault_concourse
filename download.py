@@ -38,7 +38,7 @@ def safe_eval(val):
 for i in df_table.iloc[:, 1:].columns:
     df_table[i] = df_table[i].str.replace(',', '').str.replace('%', '/100').apply(safe_eval)
  
-db_host = "192.168.3.54"
+db_host = "192.168.3.185"
 db_name = "concourse"
 db_user = "concourse_user"
 db_password = "concourse_pass"
